@@ -1,0 +1,85 @@
+<html><head><style>body {
+  color: black;
+  font-family: sans-serif;
+  font-size: 18px
+}
+
+h2 {
+  margin: 1em 0 0.5em 0;
+}
+
+h3 {
+  margin: 0.5em 0 0.5em 0;
+}
+
+p, ul {
+  margin: 0 0 0 0;
+}
+</style></head><body><h1 id="games-">Games:</h1>
+<h2 id="freeze-tag-">Freeze Tag:</h2>
+<p>There are two types of players in this game: players and runners.
+Runners spawn randomly around the edge of the map, taggers who spawn in the center.
+Taggers chase runners and freeze them by tagging them. Other runners can unfreeze people by tagging them.
+If all runners are frozen (even with the thaw timer), the game ends and the tagger wins.
+If the game timer runs out, the game ends and the runners win.</p>
+<h3 id="settings-">Settings:</h3>
+<ul>
+<li><strong>Tagger Count</strong>: Number of players freezing players. Recommended setting: 1 for small groups (less then 6 people) 2 for big groups</li>
+<li><strong>Game Timer</strong>: Time until the tagger looses the game if anyone is still unfrozen. Recommended setting: 5 minutes</li>
+<li><strong>Thaw Timer</strong>: Automatically unfreeze players after this period of time. Disable by setting to zero. Recommended setting: 0</li>
+</ul>
+<h2 id="laser-tag-">Laser Tag:</h2>
+<p>Each player has a laser gun that they can use to tag other players.
+Getting shot temporarily disables your weapon.
+In timed mode, shooting someone gives a point to your team.
+In team life mode, getting shot takes a point away from your team.
+If your team runs out of points (life), your team is out of the game and all players on the team become spectators.
+In timed mode the team with the most points at the end of the game wins.
+In team life mode the last team in the game wins.</p>
+<h3 id="settings-">Settings:</h3>
+<ul>
+<li><strong>Game Mode</strong>: Either timed mode or team life mode. Recommended setting: Timed Mode</li>
+<li><strong>Game Timer</strong>: Time until the end of the game. Only applicable in timed mode. Recommended setting: 5 minutes</li>
+<li><strong>Starting Points</strong>: Points each team starts with. Only applicable in team life mode. Recommended setting: 15 points</li>
+<li><strong>Team Count</strong>: Number of teams. FFA mode makes everyone have their own team. Automatically randomly rounds. Recommended setting: 2</li>
+<li><strong>Friendly Fire</strong>: Whether a player can accidentally shoot another player on the same team. Recommended setting: No</li>
+<li><strong>Disable Time</strong>: Time until a tagged player&#39;s gun is re-enabled. Recommended setting: 5 seconds</li>
+</ul>
+<h2 id="tag-">Tag:</h2>
+<p>There are a number of taggers, each tagger must tag someone else to transfer tagership to them.
+If they fail to tag someone before their timer runs out, they are out of the game and another random player becomes the tagger.
+There are no tag-backs, so after becoming tagger there is a 15-second cooldown before the new tagger can tag the old tagger.
+Every time someone is tagged the tagger timer starts for them, and is decreased from the timer the person that tagged them had by a number of seconds.
+Last person in the game wins.</p>
+<h3 id="settings-">Settings:</h3>
+<ul>
+<li><strong>Taggers</strong>: Number of players tagging. Recommended setting: 1 for small (less then 6 players) groups, 2 for big groups</li>
+<li><strong>Initial Timer</strong>: The initial timer that each tagger has. Recommended setting: 40 seconds</li>
+<li><strong>Timer Reduction</strong>: The amount of seconds to reduce the timer by each time someone is tagged. The timer will be capped at a minimum of 1 second. Recommended setting: 5 seconds</li>
+</ul>
+<h2 id="zombie-tag-">Zombie Tag:</h2>
+<p>There starts with one zombie.
+Every zombie must chase and tag other players to turn them into zombies.
+Last person standing wins.</p>
+<h3 id="settings-">Settings:</h3>
+<ul>
+<li><strong>Zombie Life</strong>: How long until zombies become players again. Disable by setting to zero. Recommended setting: 0</li>
+</ul>
+<h2 id="murder-mystery-">Murder Mystery:</h2>
+<p>Players spawn randomly throughout the map, except the detectives who spawn in the center room.
+The detective spawns with a gun with one bullet, and can get additional bullets by collecting coins that spawn throughout the map
+The innocents can collect coins and trade them in for magic potions, or an additional gun.
+The murderers do not see coins and can not collect them.
+After a fixed amount of time the murderers will receive their weapon, a knife.
+They can throw the knife but they will need to pick it up again as there is only one knife per murderer.
+The murderers must kill all innocents (note that they need not kill the detectives, although it is recommended).
+They must do this before the time runs out and without getting shot by the detectives to win the game.
+If the time runs out or all the murderers are dead and there are still innocents alive, the innocents and detectives win the game.</p>
+<h3 id="settings-">Settings:</h3>
+<ul>
+<li><strong>Murderers</strong>: Number of murderers. Recommended setting: 1</li>
+<li><strong>Knife timer</strong>: Time until the murderers receive their weapon. Recommended setting: 10 seconds</li>
+<li><strong>Detectives</strong>: Number of detectives. Recommended setting: 1</li>
+<li><strong>Bullet Cost</strong>: How many coins the detective must collect to receive an extra bullet. Recommended setting: 15 coins</li>
+</ul>
+</body></html>
